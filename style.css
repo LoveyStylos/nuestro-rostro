@@ -1,0 +1,102 @@
+:root {
+  --rosa: #ff4ecb;
+  --fucsia: #d600a5;
+  --violeta: #7a3cf0;
+  --azul: #3ce9e2;
+  --blanco: #ffffff;
+  --negro: #1e1e1e;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--blanco);
+  background-color: var(--negro);
+}
+
+.hero {
+  background-image: url('img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 4em;
+  font-family: 'Great Vibes', cursive;
+  color: var(--rosa);
+  margin: 0;
+  text-shadow: 2px 2px 10px var(--fucsia);
+}
+
+.slogan {
+  font-size: 1.5em;
+  margin: 0.5em 0 1em;
+  color: var(--azul);
+}
+
+.boton {
+  background: var(--rosa);
+  color: var(--blanco);
+  padding: 0.8em 2em;
+  border: none;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  background: var(--fucsia);
+}
+
+.seccion {
+  padding: 60px 30px;
+  background-color: var(--violeta);
+  text-align: center;
+}
+
+.seccion h2 {
+  font-size: 2.5em;
+  color: var(--rosa);
+  margin-bottom: 20px;
+}
+
+.seccion ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.seccion li {
+  margin: 10px 0;
+}
+
+.contacto p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.contacto .editable {
+  font-weight: bold;
+  color: var(--azul);
+}
+
+footer {
+  background: var(--negro);
+  color: var(--blanco);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
